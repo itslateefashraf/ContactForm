@@ -1,0 +1,136 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+
+  .container {
+    width: 100%;
+    height: 750px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+  }
+
+  .heading {
+    border-radius: 20px;
+    width: 600px;
+    height: 400px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: whitesmoke;
+    
+  }
+  .wrapper{
+ 
+    width: 500px;
+    height: 370px;
+    
+  }
+   input{
+    width: 100%;
+			padding: 12px 20px;
+			margin: 8px 0;
+			box-sizing: border-box;
+			/* border: 3px solid #090909; */
+      outline: none;
+   }
+   input:focus {
+    border: outset 3px  rgba(157, 233, 240, 0.995);
+ }
+  .heading h1{
+    color: rgb(3, 224, 244);
+    font-weight: 700;
+    font-size: 26px;
+    margin: 10px;
+  }
+  .first-name{
+    width: 200px;
+    height: 40px;
+    padding: 10px;
+    margin: 10px;
+    
+  }
+  .first-name::placeholder{
+    font-size: 10px;
+    font-weight: 600;
+    font-family: Arial, Helvetica, sans-serif;
+    color: rgb(150, 183, 186);
+  
+  }
+  .address{
+    width: 425px;
+    height: 35px;
+    padding: 10px;
+    margin: 10px;
+  }
+  .address::placeholder{
+    font-size: 10px;
+    font-weight: 600;
+    font-family: Arial, Helvetica, sans-serif;
+    color: rgb(150, 183, 186);
+  }
+  .message{
+    width: 425px;
+    height: 60px;
+    padding: 10px;
+    margin: 10px;
+    padding-bottom: 40px;
+  }
+  .message::placeholder{
+    font-size: 10px;
+    font-weight: 600;
+    font-family: Arial, Helvetica, sans-serif;
+    color: rgb(150, 183, 186);
+   
+  }
+  .submit{
+    margin-left: 85px;
+    margin-top: 10px;
+    cursor: pointer;
+  }
+  .submit button:hover{
+   background-color:  rgb(83, 139, 145);
+  }
+
+  .submit button{
+    
+    background-color:rgb(126, 207, 214) ;
+    color: white;
+    width: 130px;
+    height: 30px;
+    border-radius: 50px;
+    border: none;
+  }
+  header{
+   
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin-top: 10px;
+    position: fixed;
+  }
+  header h1{
+    font-size: 23px;
+    
+  }
+  nav ul{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 50px;
+    list-style: none;
+   
+   
+  }
+  nav ul li a {
+    color: black;
+    list-style: none;
+    text-decoration: none;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 15px;
+  }
+  
